@@ -1,0 +1,431 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{6FE6964B-389C-4CB4-A13D-8A60CC5567E4}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>final_project_iteration1</RootNamespace>
+    <AssemblyName>final_project_iteration1</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Account.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Account.Designer.cs">
+      <DependentUpon>Account.cs</DependentUpon>
+    </Compile>
+    <Compile Include="andalAge.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="andalAge.Designer.cs">
+      <DependentUpon>andalAge.cs</DependentUpon>
+    </Compile>
+    <Compile Include="aragornTree.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="aragornTree.Designer.cs">
+      <DependentUpon>aragornTree.cs</DependentUpon>
+    </Compile>
+    <Compile Include="atreidesTree.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="atreidesTree.Designer.cs">
+      <DependentUpon>atreidesTree.cs</DependentUpon>
+    </Compile>
+    <Compile Include="conquestAge.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="conquestAge.Designer.cs">
+      <DependentUpon>conquestAge.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Creation.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Creation.Designer.cs">
+      <DependentUpon>Creation.cs</DependentUpon>
+    </Compile>
+    <Compile Include="dawnAge.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="dawnAge.Designer.cs">
+      <DependentUpon>dawnAge.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Dune.cs" />
+    <Compile Include="DuneItems.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DuneItems.Designer.cs">
+      <DependentUpon>DuneItems.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DuneTimeline.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DuneTimeline.Designer.cs">
+      <DependentUpon>DuneTimeline.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DuneTree.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DuneTree.Designer.cs">
+      <DependentUpon>DuneTree.cs</DependentUpon>
+    </Compile>
+    <Compile Include="elrondTree.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="elrondTree.Designer.cs">
+      <DependentUpon>elrondTree.cs</DependentUpon>
+    </Compile>
+    <Compile Include="elroodAge.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="elroodAge.Designer.cs">
+      <DependentUpon>elroodAge.cs</DependentUpon>
+    </Compile>
+    <Compile Include="firstAge.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="firstAge.Designer.cs">
+      <DependentUpon>firstAge.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frodoTree.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frodoTree.Designer.cs">
+      <DependentUpon>frodoTree.cs</DependentUpon>
+    </Compile>
+    <Compile Include="gimliTree.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="gimliTree.Designer.cs">
+      <DependentUpon>gimliTree.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GOT.cs" />
+    <Compile Include="gotItem.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="gotItem.Designer.cs">
+      <DependentUpon>gotItem.cs</DependentUpon>
+    </Compile>
+    <Compile Include="gotTimeline.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="gotTimeline.Designer.cs">
+      <DependentUpon>gotTimeline.cs</DependentUpon>
+    </Compile>
+    <Compile Include="gotTree.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="gotTree.Designer.cs">
+      <DependentUpon>gotTree.cs</DependentUpon>
+    </Compile>
+    <Compile Include="harkonnenTree.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="harkonnenTree.Designer.cs">
+      <DependentUpon>harkonnenTree.cs</DependentUpon>
+    </Compile>
+    <Compile Include="House Targaryen3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="House Targaryen3.Designer.cs">
+      <DependentUpon>House Targaryen3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="hundredAge.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="hundredAge.Designer.cs">
+      <DependentUpon>hundredAge.cs</DependentUpon>
+    </Compile>
+    <Compile Include="lannisterTree.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="lannisterTree.Designer.cs">
+      <DependentUpon>lannisterTree.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LOTR.cs" />
+    <Compile Include="lotrItem.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="lotrItem.Designer.cs">
+      <DependentUpon>lotrItem.cs</DependentUpon>
+    </Compile>
+    <Compile Include="lotrTimeline.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="lotrTimeline.Designer.cs">
+      <DependentUpon>lotrTimeline.cs</DependentUpon>
+    </Compile>
+    <Compile Include="lotrTree.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="lotrTree.Designer.cs">
+      <DependentUpon>lotrTree.cs</DependentUpon>
+    </Compile>
+    <Compile Include="omniusAge.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="omniusAge.Designer.cs">
+      <DependentUpon>omniusAge.cs</DependentUpon>
+    </Compile>
+    <Compile Include="paulAge.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="paulAge.Designer.cs">
+      <DependentUpon>paulAge.cs</DependentUpon>
+    </Compile>
+    <Compile Include="postAge.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="postAge.Designer.cs">
+      <DependentUpon>postAge.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="scatterAge.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="scatterAge.Designer.cs">
+      <DependentUpon>scatterAge.cs</DependentUpon>
+    </Compile>
+    <Compile Include="secondAge.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="secondAge.Designer.cs">
+      <DependentUpon>secondAge.cs</DependentUpon>
+    </Compile>
+    <Compile Include="shaddamAge.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="shaddamAge.Designer.cs">
+      <DependentUpon>shaddamAge.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SignIn.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SignIn.Designer.cs">
+      <DependentUpon>SignIn.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SignUp.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SignUp.Designer.cs">
+      <DependentUpon>SignUp.cs</DependentUpon>
+    </Compile>
+    <Compile Include="starkTree.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="starkTree.Designer.cs">
+      <DependentUpon>starkTree.cs</DependentUpon>
+    </Compile>
+    <Compile Include="targaryenTree.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="targaryenTree.Designer.cs">
+      <DependentUpon>targaryenTree.cs</DependentUpon>
+    </Compile>
+    <Compile Include="targaryenTree2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="targaryenTree2.Designer.cs">
+      <DependentUpon>targaryenTree2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="thirdAge.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="thirdAge.Designer.cs">
+      <DependentUpon>thirdAge.cs</DependentUpon>
+    </Compile>
+    <Compile Include="titanAge.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="titanAge.Designer.cs">
+      <DependentUpon>titanAge.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Account.resx">
+      <DependentUpon>Account.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="andalAge.resx">
+      <DependentUpon>andalAge.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="aragornTree.resx">
+      <DependentUpon>aragornTree.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="atreidesTree.resx">
+      <DependentUpon>atreidesTree.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="conquestAge.resx">
+      <DependentUpon>conquestAge.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Creation.resx">
+      <DependentUpon>Creation.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="dawnAge.resx">
+      <DependentUpon>dawnAge.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DuneItems.resx">
+      <DependentUpon>DuneItems.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DuneTimeline.resx">
+      <DependentUpon>DuneTimeline.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DuneTree.resx">
+      <DependentUpon>DuneTree.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="elrondTree.resx">
+      <DependentUpon>elrondTree.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="elroodAge.resx">
+      <DependentUpon>elroodAge.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="firstAge.resx">
+      <DependentUpon>firstAge.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frodoTree.resx">
+      <DependentUpon>frodoTree.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="gimliTree.resx">
+      <DependentUpon>gimliTree.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="gotItem.resx">
+      <DependentUpon>gotItem.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="gotTimeline.resx">
+      <DependentUpon>gotTimeline.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="gotTree.resx">
+      <DependentUpon>gotTree.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="harkonnenTree.resx">
+      <DependentUpon>harkonnenTree.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="House Targaryen3.resx">
+      <DependentUpon>House Targaryen3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="hundredAge.resx">
+      <DependentUpon>hundredAge.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="lannisterTree.resx">
+      <DependentUpon>lannisterTree.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="lotrItem.resx">
+      <DependentUpon>lotrItem.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="lotrTimeline.resx">
+      <DependentUpon>lotrTimeline.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="lotrTree.resx">
+      <DependentUpon>lotrTree.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="omniusAge.resx">
+      <DependentUpon>omniusAge.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="paulAge.resx">
+      <DependentUpon>paulAge.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="postAge.resx">
+      <DependentUpon>postAge.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="scatterAge.resx">
+      <DependentUpon>scatterAge.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="secondAge.resx">
+      <DependentUpon>secondAge.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="shaddamAge.resx">
+      <DependentUpon>shaddamAge.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SignIn.resx">
+      <DependentUpon>SignIn.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SignUp.resx">
+      <DependentUpon>SignUp.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="starkTree.resx">
+      <DependentUpon>starkTree.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="targaryenTree.resx">
+      <DependentUpon>targaryenTree.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="targaryenTree2.resx">
+      <DependentUpon>targaryenTree2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="thirdAge.resx">
+      <DependentUpon>thirdAge.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="titanAge.resx">
+      <DependentUpon>titanAge.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Credential.txt" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
