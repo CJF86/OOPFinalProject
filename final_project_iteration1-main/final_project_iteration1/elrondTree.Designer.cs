@@ -103,6 +103,8 @@
             this.label42 = new System.Windows.Forms.Label();
             this.backButton = new System.Windows.Forms.Button();
             this.endButton = new System.Windows.Forms.Button();
+            this.button1 = new System.Windows.Forms.Button();
+            this.label43 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // textBox1
@@ -344,7 +346,7 @@
             this.label36.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.label36.Location = new System.Drawing.Point(497, 141);
             this.label36.Name = "label36";
-            this.label36.Size = new System.Drawing.Size(2, 42);
+            this.label36.Size = new System.Drawing.Size(2, 35);
             this.label36.TabIndex = 178;
             this.label36.Text = "label36";
             // 
@@ -372,7 +374,7 @@
             // elwingButton
             // 
             this.elwingButton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
-            this.elwingButton.Location = new System.Drawing.Point(460, 182);
+            this.elwingButton.Location = new System.Drawing.Point(460, 172);
             this.elwingButton.Name = "elwingButton";
             this.elwingButton.Size = new System.Drawing.Size(75, 35);
             this.elwingButton.TabIndex = 175;
@@ -490,7 +492,7 @@
             this.label16.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.label16.Location = new System.Drawing.Point(249, 160);
             this.label16.Name = "label16";
-            this.label16.Size = new System.Drawing.Size(2, 20);
+            this.label16.Size = new System.Drawing.Size(2, 26);
             this.label16.TabIndex = 190;
             this.label16.Text = "label16";
             // 
@@ -889,11 +891,34 @@
             this.endButton.UseVisualStyleBackColor = true;
             this.endButton.Click += new System.EventHandler(this.endButton_Click);
             // 
+            // button1
+            // 
+            this.button1.BackColor = System.Drawing.SystemColors.ControlLightLight;
+            this.button1.Location = new System.Drawing.Point(502, 213);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(75, 34);
+            this.button1.TabIndex = 234;
+            this.button1.Text = "Cräíg I";
+            this.button1.UseVisualStyleBackColor = false;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
+            // label43
+            // 
+            this.label43.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label43.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.label43.Location = new System.Drawing.Point(576, 233);
+            this.label43.Name = "label43";
+            this.label43.Size = new System.Drawing.Size(16, 2);
+            this.label43.TabIndex = 235;
+            this.label43.Text = "label43";
+            // 
             // elrondTree
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.label43);
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.endButton);
             this.Controls.Add(this.backButton);
             this.Controls.Add(this.label42);
@@ -1053,5 +1078,7 @@
         private System.Windows.Forms.Label label42;
         private System.Windows.Forms.Button backButton;
         private System.Windows.Forms.Button endButton;
+        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Label label43;
     }
 }

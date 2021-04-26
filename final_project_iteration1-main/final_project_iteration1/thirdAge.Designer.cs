@@ -28,21 +28,12 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.eventBox = new System.Windows.Forms.TextBox();
             this.searchButton = new System.Windows.Forms.Button();
             this.thirdAgeYear = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.button1 = new System.Windows.Forms.Button();
             this.SuspendLayout();
-            // 
-            // eventBox
-            // 
-            this.eventBox.Location = new System.Drawing.Point(268, 186);
-            this.eventBox.Multiline = true;
-            this.eventBox.Name = "eventBox";
-            this.eventBox.Size = new System.Drawing.Size(222, 117);
-            this.eventBox.TabIndex = 14;
             // 
             // searchButton
             // 
@@ -94,7 +85,6 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.button1);
-            this.Controls.Add(this.eventBox);
             this.Controls.Add(this.searchButton);
             this.Controls.Add(this.thirdAgeYear);
             this.Controls.Add(this.label1);
@@ -107,8 +97,6 @@
         }
 
         #endregion
-
-        private System.Windows.Forms.TextBox eventBox;
         private System.Windows.Forms.Button searchButton;
         private System.Windows.Forms.TextBox thirdAgeYear;
         private System.Windows.Forms.Label label1;

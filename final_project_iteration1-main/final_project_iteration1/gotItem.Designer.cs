@@ -39,6 +39,7 @@ namespace final_project_iteration1
             this.AnimalBox = new System.Windows.Forms.ComboBox();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
+            this.returnButton = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.SigilPicBox)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.AnimalPicBox)).BeginInit();
             this.SuspendLayout();
@@ -98,7 +99,7 @@ namespace final_project_iteration1
             // 
             // textBox2
             // 
-            this.textBox2.Location = new System.Drawing.Point(12, 327);
+            this.textBox2.Location = new System.Drawing.Point(12, 292);
             this.textBox2.Multiline = true;
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(131, 27);
@@ -107,7 +108,7 @@ namespace final_project_iteration1
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(12, 306);
+            this.label1.Location = new System.Drawing.Point(12, 276);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(89, 13);
             this.label1.TabIndex = 6;
@@ -150,11 +151,22 @@ namespace final_project_iteration1
             this.label3.TabIndex = 9;
             this.label3.Text = "Select a house";
             // 
+            // returnButton
+            // 
+            this.returnButton.Location = new System.Drawing.Point(12, 331);
+            this.returnButton.Name = "returnButton";
+            this.returnButton.Size = new System.Drawing.Size(75, 23);
+            this.returnButton.TabIndex = 27;
+            this.returnButton.Text = "Return";
+            this.returnButton.UseVisualStyleBackColor = true;
+            this.returnButton.Click += new System.EventHandler(this.returnButton_Click);
+            // 
             // gotItem
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(600, 366);
+            this.Controls.Add(this.returnButton);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.AnimalBox);
@@ -187,5 +199,6 @@ namespace final_project_iteration1
         private System.Windows.Forms.ComboBox AnimalBox;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Button returnButton;
     }
 }

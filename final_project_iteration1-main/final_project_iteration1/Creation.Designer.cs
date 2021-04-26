@@ -33,6 +33,7 @@
             this.DuneRdBtn = new System.Windows.Forms.RadioButton();
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.BeginBtn = new System.Windows.Forms.Button();
+            this.returnButton = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // GOTRdBtn
@@ -89,11 +90,22 @@
             this.BeginBtn.UseVisualStyleBackColor = true;
             this.BeginBtn.Click += new System.EventHandler(this.BeginBtn_Click);
             // 
+            // returnButton
+            // 
+            this.returnButton.Location = new System.Drawing.Point(12, 415);
+            this.returnButton.Name = "returnButton";
+            this.returnButton.Size = new System.Drawing.Size(75, 23);
+            this.returnButton.TabIndex = 27;
+            this.returnButton.Text = "Return";
+            this.returnButton.UseVisualStyleBackColor = true;
+            this.returnButton.Click += new System.EventHandler(this.returnButton_Click);
+            // 
             // Creation
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.returnButton);
             this.Controls.Add(this.BeginBtn);
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.DuneRdBtn);
@@ -113,5 +125,6 @@
         private System.Windows.Forms.RadioButton DuneRdBtn;
         private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.Button BeginBtn;
+        private System.Windows.Forms.Button returnButton;
     }
 }

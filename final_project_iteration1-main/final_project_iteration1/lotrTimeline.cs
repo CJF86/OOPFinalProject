@@ -41,5 +41,12 @@ namespace final_project_iteration1
                 f3.ShowDialog();
             }
         }
+
+        private void returnButton_Click(object sender, EventArgs e)
+        {
+            Form1 F5 = new Form1();
+            this.Hide();
+            F5.ShowDialog();
+        }
     }
 }

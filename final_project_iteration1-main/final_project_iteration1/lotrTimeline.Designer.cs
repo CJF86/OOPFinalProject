@@ -33,6 +33,7 @@
             this.secondAgeButton = new System.Windows.Forms.RadioButton();
             this.thirdAgeButton = new System.Windows.Forms.RadioButton();
             this.flyButton = new System.Windows.Forms.Button();
+            this.returnButton = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // textBox1
@@ -87,11 +88,22 @@
             this.flyButton.UseVisualStyleBackColor = true;
             this.flyButton.Click += new System.EventHandler(this.flyButton_Click);
             // 
+            // returnButton
+            // 
+            this.returnButton.Location = new System.Drawing.Point(12, 415);
+            this.returnButton.Name = "returnButton";
+            this.returnButton.Size = new System.Drawing.Size(75, 23);
+            this.returnButton.TabIndex = 27;
+            this.returnButton.Text = "Return";
+            this.returnButton.UseVisualStyleBackColor = true;
+            this.returnButton.Click += new System.EventHandler(this.returnButton_Click);
+            // 
             // lotrTimeline
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.returnButton);
             this.Controls.Add(this.flyButton);
             this.Controls.Add(this.thirdAgeButton);
             this.Controls.Add(this.secondAgeButton);
@@ -111,5 +123,6 @@
         private System.Windows.Forms.RadioButton secondAgeButton;
         private System.Windows.Forms.RadioButton thirdAgeButton;
         private System.Windows.Forms.Button flyButton;
+        private System.Windows.Forms.Button returnButton;
     }
 }

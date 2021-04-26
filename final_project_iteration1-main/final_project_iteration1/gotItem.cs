@@ -105,5 +105,12 @@ namespace final_project_iteration1
             }
             
         }
+
+        private void returnButton_Click(object sender, EventArgs e)
+        {
+            Creation C2 = new Creation();
+            this.Hide();
+            C2.ShowDialog();
+        }
     }
 }

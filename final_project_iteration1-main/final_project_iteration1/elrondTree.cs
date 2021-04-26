@@ -181,5 +181,13 @@ namespace final_project_iteration1
         {
             MessageBox.Show("Aragorn Elessar and Arwen Evenstar are said to have had several daughters, though there names are never stated cause J.R.R. Tolkien's sexist or whatever.");
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Egg E1 = new Egg();
+            MessageBox.Show("Galadriel's lesser known side piece ;)");
+            this.Hide();
+            E1.ShowDialog();
+        }
     }
 }

@@ -29,21 +29,12 @@ namespace final_project_iteration1
         /// </summary>
         private void InitializeComponent()
         {
-            this.eventBox = new System.Windows.Forms.TextBox();
             this.searchButton = new System.Windows.Forms.Button();
             this.dawnYear = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.returnButton = new System.Windows.Forms.Button();
             this.SuspendLayout();
-            // 
-            // eventBox
-            // 
-            this.eventBox.Location = new System.Drawing.Point(167, 163);
-            this.eventBox.Multiline = true;
-            this.eventBox.Name = "eventBox";
-            this.eventBox.Size = new System.Drawing.Size(222, 117);
-            this.eventBox.TabIndex = 19;
             // 
             // searchButton
             // 
@@ -95,12 +86,11 @@ namespace final_project_iteration1
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(600, 366);
             this.Controls.Add(this.returnButton);
-            this.Controls.Add(this.eventBox);
             this.Controls.Add(this.searchButton);
             this.Controls.Add(this.dawnYear);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.textBox1);
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "dawnAge";
             this.Text = "Dawn and Hero Age";
             this.ResumeLayout(false);
@@ -109,8 +99,6 @@ namespace final_project_iteration1
         }
 
         #endregion
-
-        private System.Windows.Forms.TextBox eventBox;
         private System.Windows.Forms.Button searchButton;
         private System.Windows.Forms.TextBox dawnYear;
         private System.Windows.Forms.Label label1;
